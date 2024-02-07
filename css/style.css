@@ -1,0 +1,230 @@
+body,h1,h2,h3,h4,h5,h6,p,ul,li,span,a{
+    padding:0px;
+    margin:0px;
+}
+@font-face {
+    font-family: font-regular;
+    src: url(../fonts/regular.ttf);
+}
+@font-face {
+    font-family: font-medium;
+    src: url(../fonts/medium.ttf);
+}
+@font-face {
+    font-family: font-bold;
+    src: url(../fonts/bold.ttf);
+}
+@font-face {
+    font-family: font-black;
+    src: url(../fonts/black.ttf);
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: font-black;
+}
+p,a,span,li{
+    font-family: font-regular;
+}
+p{
+    margin-bottom:2%;
+}
+.padding-top{
+    padding-top:4%;
+}
+.padding-bottom{
+    padding-bottom:4%;
+}
+.main-heading{
+    font-size:2.4em;
+    text-transform: uppercase;
+    letter-spacing:3px;
+    margin-bottom:3%;
+}
+.responsive-image{
+    width: 100%;
+    height: auto;
+}
+.btn-blue{
+    display:inline-block;
+    color:#fff;
+    padding: 1em 2.5em;
+    background-color:#324a8b; 
+    text-decoration:none;
+    transition:0.3s;
+}
+.btn-blue:hover{
+    background-color:#6780c5;
+    color:#fff;
+    text-decoration:none;
+}
+
+/****** Navigation ****/
+header{
+    background-color:#324a8b; 
+    color:#fff;
+    padding: 1% 0%;
+}
+header .logo-header {
+    width: 50%;
+}
+header nav ul li{
+    list-style:none;
+    display: inline-block;
+    margin-left:10%;
+}
+header nav ul li a{
+    color:#fff;
+    text-decoration:none;
+    transition:0.3s;
+}
+header nav ul li a:hover{
+    color:#6780c5;
+}
+
+/***** Hero-section *****/
+.hero-section{
+    background-image:url(../images/hero-image.jpg);
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center center;
+    height:700px;
+}
+.hero-section .content-div{
+    background-color:rgb(21 34 70 / 76%);
+    color:#fff;
+    border-radius:3px;
+    padding: 8%;
+    margin-top:40%;
+}
+.hero-section .content-div p{
+    padding-top:3%;
+}
+.hero-section2{
+    background-color:#d6e8ff;
+    padding:4% 0%;
+}
+.hero-section2 h1{
+    font-size:3em;
+    text-transform: uppercase;
+    letter-spacing:3px;
+}
+/***** About Section *****/
+.about-section img{
+    border-radius:4px;
+}
+
+/****** About Section Internal *****/
+.about-section-internal {
+    text-align:center;
+}
+.about-section-internal img{
+    width:50%;
+    margin-bottom:2%;
+}
+.about-section-internal .icons img{
+    width:30%;
+    margin-top:5%;
+}
+
+/**** Properties ****/
+.properties-section .property{
+    border:1px solid #b5b5b5;
+    padding:3%;
+    border-radius:4px;
+}
+.properties-internal .property{
+    margin-bottom:8% !important;
+}
+.properties-section .property img{
+    border-radius:4px;
+}
+.properties-section .property h3{
+    margin:3% 0%;
+}
+.properties-section .property span{
+    margin-right:8%;
+}
+.properties-section .btn-blue{
+    margin-top:4%;
+}
+.enquire-section .main-title{
+    font-size:1.5em;
+}
+.enquire-section p{
+    font-size:1.3em;
+}
+.enquire-section img{
+    margin:3% 0%;
+}
+.enquire-section .form-elements{
+    margin-bottom:20px;
+}
+.enquire-section .form-elements label{
+    display:block;
+    font-family: font-medium;
+}
+.enquire-section .form-elements input{
+    width:100% !important;
+    padding: 0.5em;
+}
+.enquire-section .form-elements textarea{
+    width:100% !important;
+    height:200px;
+}
+.error{
+    color:red !important;
+}
+
+/***** Why Choose Us Section *****/
+.why-choose-us-section img{
+    border-radius:4px;
+}
+
+/**** Contact Section ***/
+.contact-info ul{
+    list-style: none;
+}
+.contact-info ul li{
+    background-color: #eaeaea;
+    margin-bottom: 7%;
+    border-radius: 5px;
+    padding: 7%;
+}
+.contact-info ul li img{
+    margin-right: 5%;
+}
+.contact-info ul li a{
+    color:#000;
+    text-decoration: none;
+}
+
+/**** Footer ****/
+footer{
+    background-color:#000;
+    color:#fff;
+}
+footer .logo-footer {
+    width: 50%;
+    margin-bottom:3%;
+}
+footer ul li{
+    list-style:none;
+    margin-top:7%;
+}
+footer ul li a{
+    color:#fff;
+    text-decoration:none;
+    transition:0.3s ease;
+}
+footer ul li a:hover{
+    color:#a9a9a9;
+    text-decoration:none;
+}
+footer iframe{
+    margin-top:7%;
+}
+footer .lower-footer{
+    border-top:1px solid #fff;
+    text-align:center;
+    margin-top:3%;
+    padding-top:2%;
+}

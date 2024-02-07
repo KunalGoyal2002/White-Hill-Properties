@@ -1,0 +1,86 @@
+@media only screen and (max-width: 600px) {
+    h1 {
+        font-size: 2rem;
+    }
+    p {
+        margin-bottom: 5%;
+    }
+    .padding-bottom {
+        padding-bottom: 18%;
+    }
+    .padding-top {
+        padding-top: 18%;
+    }
+    header .col-sm-3{
+        text-align: center;
+    }
+    header .col-sm-9{
+        text-align: center !important;
+    }
+    header {
+        padding: 3% 0%;
+    }
+    header .logo-header {
+        width: 35%;
+    }
+    header nav ul li {
+        margin:2% 5% ;
+    }
+    .hero-section {
+        height: 450px;
+    }
+    .hero-section .content-div {
+        margin-top: 25%;
+    }
+    .hero-section2 h1 {
+        font-size: 2em;
+    }
+    .hero-section2 {
+        background-color: #d6e8ff;
+        padding: 20% 0%;
+    }
+    .main-heading {
+        font-size: 1.8em;
+    }
+    .about-section {
+        text-align:center;
+    }
+    .about-section img{
+        margin-top:6%;
+    }
+    .why-choose-us-section{
+        text-align:center;
+    }
+    .why-choose-us-section img{
+        margin-bottom:6%;
+    }
+    footer p{
+        margin-bottom:0%;
+    }
+    footer .quick-links{
+        margin:12% 0%;
+    }
+    .about-section-internal img {
+        width: 100%;
+        margin-bottom:8%;
+    }
+    .about-section-internal .icons h3 {
+        font-size:1.5em;
+    }
+    .about-section-internal .icons img {
+        width: 24%;
+        margin-top: 12%;
+        margin-bottom:2%;
+    }
+    .properties-section .property {
+        margin-bottom: 10%;
+    }
+    .property-detail p{
+        font-size:2em;
+        margin-bottom:0%;
+    }
+    .property-detail .property-address{
+        font-size:1.3em !important;
+        margin-bottom:10%;
+    }
+}
